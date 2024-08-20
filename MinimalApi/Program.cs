@@ -29,6 +29,8 @@ builder.Services.AddControllers().AddJsonOptions(x =>
 
 builder.Services.AddSingleton<ChangedBags>();
 
+builder.Services.AddAntDesign();
+
 #region DapperMapper
 
 SqlMapper.AddTypeHandler(new DetailTypeHandler());
