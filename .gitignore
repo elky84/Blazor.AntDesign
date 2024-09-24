@@ -406,3 +406,6 @@ FodyWeavers.xsd
 # Team
 /.idea
 !/.idea/.idea.K1Server/.idea/dataSources.xml
+
+# private properties
+tools/LocalServerManager/dist

@@ -1,4 +1,4 @@
-# MinimalApiAntDesign
+# Blazor.AntDesign
 
 ## Reference
 - https://antblazor.com/en-US/docs/introduce
