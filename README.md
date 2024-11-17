@@ -1,4 +1,4 @@
-# MinimalApi.AntDesign
+# Blazor.AntDesign
 
 ## Reference
 - https://antblazor.com/en-US/docs/introduce
