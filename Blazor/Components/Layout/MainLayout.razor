@@ -14,8 +14,14 @@
                     <Tag Color="blue">
                         @HostEnvironment.EnvironmentName
                     </Tag>
+                    <MenuItem Key="home" Class="@(MenuActiveState("/home"))">
+                        <MenuLink Href="/">Home</MenuLink>
+                    </MenuItem>
                     <MenuItem Key="accounts" Class="@(MenuActiveState("/accounts"))">
-                        <MenuLink Href="/accounts">Accounts</MenuLink>
+                        <MenuLink Href="/accounts">Account</MenuLink>
+                    </MenuItem>
+                    <MenuItem Key="test" Class="@(MenuActiveState("/test"))">
+                        <MenuLink Href="/test">Test</MenuLink>
                     </MenuItem>
                 </Menu>
             </Header>
